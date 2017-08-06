@@ -1,0 +1,51 @@
+languageCode = "en-us"
+title = "Detroit Go Meetup"
+theme = "hugo-freelancer-theme"
+publishDir = "docs"
+
+[params]
+    name = "Detroit Go Meetup"
+    description = "Folks that are writing Go, interested in learning more about Go, or are looking for Go use cases."
+
+    [params.navigation]
+        brand = "Detroit Go Meetup"
+
+    [params.header]
+        image = "gopher_detroit_twitter_400x400.png"
+        name = "Detroit Go Meetup"
+        subtitle = "Gophers - Togetherness - Learning"
+
+    [params.coc]
+        title = "Code of Conduct"
+        # The CoC text is splitted into a left and right column
+        left = "The Detroit Go Meetup is dedicated to providing a harassment-free experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of participants in any form."
+        right = "Sexual language and imagery is not appropriate for any Meetup venue, including talks. Meetup participants violating these rules may be sanctioned or expelled from the Meetup at the discretion of the organizers."
+
+    [params.footer]
+
+        [params.footer.location]
+            title = "Location"
+            address = ["Detroit, Michigan"]
+
+        [params.footer.social]
+            title = "Around the web"
+
+            [[params.footer.social.networks]]
+                icon = "fa-github"
+                link = "https://github.com/detroitgolang"
+
+            [[params.footer.social.networks]]
+                icon = "fa-twitter"
+                link = "https://twitter.com/detroitgolang"
+
+            [[params.footer.social.networks]]
+                icon = "fa-meetup"
+                link = "https://www.meetup.com/DetroitGolang/"
+
+            [[params.footer.social.networks]]
+                icon = "fa-slack"
+                link = "https://gophers.slack.com/messages/C6HV541KM/"
+
+        [params.footer.credits]
+            title = "Co-Organizers"
+            text = "[Chris Short](https://chrisshort.net)<br />[Steve Marsh](https://github.com/Swampy821)"
